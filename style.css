@@ -176,3 +176,44 @@ button:hover {
   top: 150px;   /* Sayfanın en üstünden 120px aşağı */
   left: 450px;   /* Soldan 50px içeri */
 }
+
+
+
+
+/* Genel sayfa düzeni */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+/* Header düzeni */
+header h1 {
+    letter-spacing: 2px;
+}
+
+/* Navigasyon butonları */
+header nav a {
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+header nav a:hover {
+    background-color: #0d6efd;
+    color: #fff !important;
+}
+
+/* Footer */
+footer {
+    font-size: 15px;
+}
+
+/* İçerik boşluğu */
+section {
+    min-height: 400px;
+}
+
+h2 {
+
+  text-align: center;
+}
